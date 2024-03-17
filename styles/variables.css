@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а также их изменения в зависимости от ширины устройства */
 :root {
   --font-family: "Inter", sans-serif;
-  --second-family: "PressStart2P", monospace;
+  --second-family: "PressStart2P", fantasy;
   --card-title-weight: 700;
   --card-text-weight: 400;
   --bg-color: #fff;
