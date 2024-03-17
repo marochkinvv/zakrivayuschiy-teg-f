@@ -1,1 +1,17 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а также их изменения в зависимости от ширины устройства */
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "PressStart2P", monospace;
+  --card-title-weight: 700;
+  --card-text-weight: 400;
+  --bg-color: #fff;
+  --accent-color: #000;
+  --bg-dot-color: #d3d3d3;
+  --bg-gradient: #e7e7e7 0.01%, #1a1a1a;
+  --label-color: #fff;
+  --difference-color: #fff;
+  --heart-icon-contour: #000;
+  --heart-icon-sparks: #ff0000;
+  --heart-icon-core: transparent;
+  --heart-icon-body: transparent;
+}
