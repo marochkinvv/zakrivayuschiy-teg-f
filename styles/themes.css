@@ -50,4 +50,15 @@
     --heart-icon-core: transparent;
     --heart-icon-body: transparent;
   }
+
+  @supports (font-variation-settings: normal) {
+    .card__title {
+      font-weight: 785;
+    }
+
+    .card__text {
+      font-weight: 465;
+    }
+  }
+
 }
