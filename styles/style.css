@@ -54,7 +54,7 @@
   justify-content: end;
   gap: clamp(1.25rem, 1.14rem + 0.4695vw, 1.5625rem);
   border: 2px solid var(--accent-color);
-  min-block-size: clamp(20.4375rem, 19.5352rem + 3.8498vw, 23rem);;
+  min-block-size: clamp(20.4375rem, 19.5352rem + 3.8498vw, 23rem);
   text-transform: uppercase;
   padding-block-end: 25px;
   margin: 100px auto;
