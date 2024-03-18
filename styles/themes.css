@@ -9,7 +9,7 @@
   --bg-color: #000;
   --accent-color: #00cc14;
   --card-title-weight: 785;
-  --card-text-weight: 465;
+  --page-text-weight: 465;
   --bg-dot-color: #000;
   --bg-gradient: #007f0c, #004306;
   --label-color: #000;
@@ -24,7 +24,7 @@
   --bg-color: #fff;
   --accent-color: #000;
   --card-title-weight: 700;
-  --card-text-weight: 400;
+  --page-text-weight: 400;
   --bg-dot-color: #d3d3d3;
   --bg-gradient: #e7e7e7 0.01%, #1a1a1a;
   --label-color: #fff;
@@ -40,7 +40,7 @@
     --bg-color: #000;
     --accent-color: #00cc14;
     --card-title-weight: 785;
-    --card-text-weight: 465;
+    --page-text-weight: 465;
     --bg-dot-color: #000;
     --bg-gradient: #007f0c, #004306;
     --label-color: #000;
@@ -51,11 +51,11 @@
     --heart-icon-body: transparent;
   }
 
-  .card__title {
-    font-variation-settings: "wght" 785;
+  .page {
+    font-variation-settings: "wght" var(--page-text-weight);
   }
 
-  .card__text {
-    font-variation-settings: "wght" 465;
+  .card__title {
+    font-variation-settings: "wght" var(--card-title-weight);
   }
 }

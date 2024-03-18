@@ -21,6 +21,7 @@
   background-color: var(--bg-color);
   color: var(--accent-color);
   font-family: var(--font-family);
+  font-variation-settings: "wght" var(--page-text-weight);;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -52,10 +53,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: end;
-  gap: clamp(1.25rem, 1.14rem + 0.4695vw, 1.5625rem);
+  gap: clamp(1.5rem, 1.14rem + 0.4695vw, 1.5625rem);
   border: 2px solid var(--accent-color);
   text-transform: uppercase;
-  padding-block-start: 136px;
+  padding-block-start: clamp(7.5rem, 7.1479rem + 1.5023vw, 8.5rem);
   padding-block-end: 25px;
   margin: 100px auto;
   background-color: var(--bg-color);
@@ -153,7 +154,8 @@
 .card__title {
   background-color: var(--bg-color);
   color: var(--accent-color);
-  font-variation-settings: 'wght' 700;
+  font-family: var(--font-family);
+  font-variation-settings: "wght" var(--card-title-weight);
   font-size: 18px;
   line-height: 1.5rem;
   padding: 3px 10px;
@@ -237,7 +239,6 @@
 .card__text {
   font-size: 18px;
   line-height: 117%;
-  font-variation-settings: 'wght' 400;
   color: var(--accent-color);
 }
 
